@@ -17,20 +17,30 @@ a {
 
 
 #header {
-    margin: 20px 0px;
+    padding: 20px 10%;
 }
 #header-container {
     display: flex;
-    width: 80%;
+    min-width: 1000px;
     margin: 0px auto;
     /* background-color: lemonchiffon; */
     justify-content: space-between;
 }
-h1 {
-    /* background-color: lime; */
+#main-container {
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 1000px;
+    padding: 0% 10%;
+    margin: auto;
+}
+
+/* h1 {
+    background-color: lime;
     font-size: 64px;
     text-align: center;
-}
+} */
 
 .nav-menu {
     /* background-color: palevioletred; */
@@ -57,16 +67,6 @@ h1 {
 }
 
 
-
-#main-container {
-    /* background-color: purple; */
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    min-width: 1000px;
-    padding: 0% 10%;
-    margin: auto;
-}
 .row {
     display: flex;
     height: 300px;
@@ -129,7 +129,8 @@ h1 {
 #prebootcamp{
     width: 100%;
     display: flex;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 30px;
 }
 #about-me-text .col {
     flex: 1;
@@ -151,6 +152,9 @@ h1 {
     padding: 30px;
     border-radius: 20px;
 }
+/* .content-box {
+    display: flex;
+} */
 .experience-list {
     list-style: disc;
     padding-left: 10px;
@@ -175,6 +179,9 @@ h5 {
 }
 .technologies {
     flex: 5;
+}
+#journey-text {
+    width: 100%;
 }
 #journey .subheading {
     color: black;
